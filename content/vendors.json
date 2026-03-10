@@ -1,0 +1,61 @@
+{
+  "intro": {
+    "title": "進駐天目城",
+    "subtitle": "與我們一起，傳遞玉石溫度",
+    "description": "天目城擁有超過二十年的玉石市場經營經驗，是台中最具影響力的玉石藝術聚落。我們提供穩定客群、專業場域與完善設施，歡迎優質廠商攜手共創。"
+  },
+  "benefits": [
+    {
+      "icon": "🏛️",
+      "title": "二十年老字號",
+      "description": "深耕台中南屯，穩定熟客群與口碑"
+    },
+    {
+      "icon": "🚗",
+      "title": "交通便利",
+      "description": "鄰近五權西路主幹道，停車方便"
+    },
+    {
+      "icon": "📱",
+      "title": "數位行銷支援",
+      "description": "提供FB/IG社群曝光，協助廠商宣傳"
+    },
+    {
+      "icon": "🤝",
+      "title": "靈活租約",
+      "description": "依需求提供不同攤位規格與彈性方案"
+    }
+  ],
+  "spaces": [
+    {
+      "type": "標準攤位",
+      "size": "約3坪",
+      "features": ["獨立展示空間", "基本照明設備", "共用收銀區"],
+      "contact": "洽詢專線"
+    },
+    {
+      "type": "大型攤位",
+      "size": "約6坪以上",
+      "features": ["獨立展示空間", "專屬照明設備", "獨立收銀台"],
+      "contact": "洽詢專線"
+    }
+  ],
+  "featured": [
+    {
+      "id": "vendor-001",
+      "name": "範例珠寶",
+      "category": "翡翠珠寶",
+      "floor": "1F",
+      "description": "專營頂級翡翠與玉石珠寶，精工細作，品質保證。",
+      "image": "assets/images/vendor-placeholder.jpg"
+    },
+    {
+      "id": "vendor-002",
+      "name": "台灣玉工坊",
+      "category": "台灣玉",
+      "floor": "2F",
+      "description": "台灣玉原礦直售，兼具自然美感與收藏價值。",
+      "image": "assets/images/vendor-placeholder.jpg"
+    }
+  ]
+}

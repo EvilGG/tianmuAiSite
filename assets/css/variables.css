@@ -1,0 +1,95 @@
+/* ====================================
+   天目城官網 CSS 設計變數
+   Taiwan Tianmu City - Design Tokens
+   版本: 1.0  日期: 2026-03-10
+   ==================================== */
+
+:root {
+  /* ── 主要色彩 ── */
+  --color-primary:        #1c3a2e;   /* 森林綠 */
+  --color-primary-light:  #2a5542;   /* 森林綠（亮） */
+  --color-primary-dark:   #0f2219;   /* 森林綠（暗） */
+
+  --color-secondary:      #f5f0e6;   /* 米白 */
+  --color-secondary-dark: #e8e0cc;   /* 米白（暗） */
+
+  --color-accent:         #c49a3c;   /* 金色 */
+  --color-accent-light:   #ddb96a;   /* 金色（亮） */
+  --color-accent-dark:    #9c7a2a;   /* 金色（暗） */
+
+  /* ── 中性色 ── */
+  --color-text:           #2c2c2c;   /* 主文字 */
+  --color-text-muted:     #6b6b6b;   /* 次要文字 */
+  --color-text-light:     #f5f0e6;   /* 淺色文字（深背景用） */
+  --color-border:         #d4c9b0;   /* 邊框 */
+  --color-bg:             #faf8f3;   /* 背景 */
+  --color-bg-dark:        #1c3a2e;   /* 深色背景 */
+
+  /* ── 字型 ── */
+  --font-body:    'Noto Serif TC', '思源宋體', Georgia, serif;
+  --font-heading: 'Noto Serif TC', '思源宋體', Georgia, serif;
+  --font-ui:      'Noto Sans TC', '思源黑體', system-ui, sans-serif;
+
+  /* ── 字體大小 ── */
+  --text-xs:   0.75rem;   /* 12px */
+  --text-sm:   0.875rem;  /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg:   1.125rem;  /* 18px */
+  --text-xl:   1.25rem;   /* 20px */
+  --text-2xl:  1.5rem;    /* 24px */
+  --text-3xl:  1.875rem;  /* 30px */
+  --text-4xl:  2.25rem;   /* 36px */
+  --text-5xl:  3rem;      /* 48px */
+
+  /* ── 間距 ── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* ── 圓角 ── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  16px;
+  --radius-full: 9999px;
+
+  /* ── 陰影 ── */
+  --shadow-sm: 0 1px 3px rgba(28, 58, 46, 0.08);
+  --shadow-md: 0 4px 16px rgba(28, 58, 46, 0.12);
+  --shadow-lg: 0 8px 32px rgba(28, 58, 46, 0.16);
+
+  /* ── 過渡動畫 ── */
+  --transition-fast:   0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow:   0.4s ease;
+
+  /* ── 版面寬度 ── */
+  --container-max: 1200px;
+  --container-pad: var(--space-6);
+
+  /* ── 導覽列 ── */
+  --nav-height: 72px;
+}
+
+/* ── 響應式容器 ── */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-pad);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --text-4xl: 1.75rem;
+    --text-5xl: 2.25rem;
+    --container-pad: var(--space-4);
+    --nav-height: 60px;
+  }
+}

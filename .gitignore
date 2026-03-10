@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# 開發工具暫存
+node_modules/
+.cache/
+dist/
+
+# 敏感資訊（不上傳）
+.env
+.env.local
+secrets/
+
+# 系統規劃文件（不需上傳到 repo）
+20260310_PLAN_tianmu-website-rebuild_v1.0.md

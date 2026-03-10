@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>台中文心玉市－天目城 | 二十年人文底蘊・玉石藝術聚落</title>
+  <meta name="description" content="天目城位於台中市南屯區，是台灣最具代表性的玉石文化市場，擁有超過二十年的人文底蘊，定期舉辦展覽與藝術活動。" />
+  <meta property="og:title" content="台中文心玉市－天目城" />
+  <meta property="og:description" content="二十年人文底蘊・台中玉石藝術聚落" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ╔══════════════════════════════╗
+       ║  NAVIGATION                  ║
+       ╚══════════════════════════════╝ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-zh">天目城</span>
+        <span class="nav__logo-en">TIANMU CITY</span>
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link active">首頁</a></li>
+        <li><a href="exhibition.html" class="nav__link">展覽活動</a></li>
+        <li><a href="vendors.html" class="nav__link">廠商進駐</a></li>
+        <li><a href="about.html" class="nav__link">關於我們</a></li>
+        <li><a href="contact.html" class="nav__link">聯絡我們</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="開啟選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ╔══════════════════════════════╗
+       ║  HERO                        ║
+       ╚══════════════════════════════╝ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__pattern"></div>
+    <div class="hero__content">
+      <div class="hero__badge">台中・南屯區 | 文心玉市</div>
+      <p class="hero__title-en">TIANMU CITY・JADE &amp; ARTS</p>
+      <h1 class="hero__title-zh">
+        二十年人文底蘊<br>
+        <em>玉石文化</em>的故鄉
+      </h1>
+      <p class="hero__desc">
+        集玉石珍藏、藝術展覽、人文交流於一身<br>
+        台中最具溫度的文化聚落
+      </p>
+      <div class="hero__actions">
+        <a href="exhibition.html" class="btn btn--primary">探索目前展覽</a>
+        <a href="about.html" class="btn btn--outline">了解天目城</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║  INFO STRIP                  ║
+       ╚══════════════════════════════╝ -->
+  <div class="info-strip">
+    <div class="container">
+      <div class="info-strip__grid" id="infoStrip">
+        <div class="info-strip__item">
+          <div class="info-strip__icon">🕙</div>
+          <div class="info-strip__label">營業時間</div>
+          <div class="info-strip__value">09:30 – 19:00<br><small style="opacity:.6;font-size:.8em">週二、三公休</small></div>
+        </div>
+        <div class="info-strip__item">
+          <div class="info-strip__icon">📍</div>
+          <div class="info-strip__label">地址</div>
+          <div class="info-strip__value">台中市南屯區<br>五權西路二段957號</div>
+        </div>
+        <div class="info-strip__item">
+          <div class="info-strip__icon">📞</div>
+          <div class="info-strip__label">電話</div>
+          <div class="info-strip__value" id="phoneDisplay">04-2386 0417</div>
+        </div>
+        <div class="info-strip__item">
+          <div class="info-strip__icon">💬</div>
+          <div class="info-strip__label">LINE 官方</div>
+          <div class="info-strip__value">
+            <a href="#" id="lineLink" style="color:var(--color-accent);text-decoration:underline;">加入LINE好友</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ╔══════════════════════════════╗
+       ║  CURRENT EXHIBITION          ║
+       ╚══════════════════════════════╝ -->
+  <section class="section--cream">
+    <div class="container text-center">
+      <h2 class="section-title">目前展覽</h2>
+      <p class="section-subtitle">精選當期展覽，邀您親臨感受</p>
+      <div id="currentExhibition">
+        <!-- 由 JS 載入 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║  ABOUT BRIEF                 ║
+       ╚══════════════════════════════╝ -->
+  <section class="section--light">
+    <div class="container">
+      <div class="grid-2" style="align-items:center; gap:4rem;">
+        <div>
+          <h2 class="section-title">二十年・天目傳奇</h2>
+          <div style="height:1.5rem"></div>
+          <p style="font-size:var(--text-lg); line-height:2; color:var(--color-text-muted); margin-bottom:1.5rem;">
+            天目城自2000年代初期於台中南屯紮根，歷經二十年的耕耘，從一個單純的玉石市集，
+            蛻變為融合玉石珍藏、藝術展覽、人文交流的複合式文化空間。
+          </p>
+          <p style="font-size:var(--text-base); line-height:2; color:var(--color-text-muted); margin-bottom:2rem;">
+            這裡不只有玉石，更有人情味。每一塊玉石背後，都是一段故事；每一位廠商，都是守護傳統美學的職人。
+          </p>
+          <a href="about.html" class="btn btn--primary-dark">探索我們的故事</a>
+        </div>
+        <div style="background:linear-gradient(135deg,var(--color-primary) 0%,var(--color-primary-light) 100%);
+                    border-radius:var(--radius-lg); aspect-ratio:4/3;
+                    display:flex; align-items:center; justify-content:center;
+                    font-size:5rem; opacity:.35; color:var(--color-secondary);">
+          🏛️
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║  LATEST NEWS                 ║
+       ╚══════════════════════════════╝ -->
+  <section class="section--cream">
+    <div class="container">
+      <div class="text-center mb-12">
+        <h2 class="section-title" style="display:block;">最新消息</h2>
+        <div class="deco-line"></div>
+        <p class="section-subtitle">活動公告・展覽資訊・市場動態</p>
+      </div>
+      <div id="newsList">
+        <!-- 由 JS 載入 -->
+      </div>
+      <div class="text-center" style="margin-top:2.5rem;">
+        <a href="exhibition.html" class="btn btn--primary-dark">查看更多活動</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║  CTA                         ║
+       ╚══════════════════════════════╝ -->
+  <section class="section--dark" style="text-align:center;">
+    <div class="container">
+      <div style="max-width:600px; margin:0 auto;">
+        <p style="font-family:var(--font-ui);font-size:var(--text-xs);letter-spacing:.3em;color:var(--color-accent);margin-bottom:1.5rem;">
+          BECOME PART OF US
+        </p>
+        <h2 style="font-size:var(--text-4xl); color:var(--color-secondary); margin-bottom:1.5rem; line-height:1.3;">
+          歡迎廠商進駐<br>共創玉石傳奇
+        </h2>
+        <p style="color:rgba(245,240,230,.65); font-size:var(--text-lg); margin-bottom:3rem; font-weight:300; line-height:2;">
+          天目城提供穩定客群與優質場域，誠邀各地玉石工藝職人一同駐紮，讓更多人認識東方玉石之美。
+        </p>
+        <a href="vendors.html" class="btn btn--primary">了解進駐方案</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║  FOOTER                      ║
+       ╚══════════════════════════════╝ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand-name">天目城</div>
+          <div class="footer__brand-tagline">台中文心玉市</div>
+          <p class="footer__brand-desc">
+            二十年深耕台中南屯，是玉石愛好者的精神故鄉。<br>
+            這裡有玉石、有藝術、有人情味。
+          </p>
+        </div>
+        <div>
+          <div class="footer__col-title">快速連結</div>
+          <ul class="footer__links">
+            <li><a href="exhibition.html" class="footer__link">展覽活動</a></li>
+            <li><a href="vendors.html" class="footer__link">廠商進駐</a></li>
+            <li><a href="about.html" class="footer__link">關於我們</a></li>
+            <li><a href="contact.html" class="footer__link">聯絡我們</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-title">聯絡資訊</div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon">📍</span>
+            <span>台中市南屯區五權西路二段957號</span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon">📞</span>
+            <span id="footerPhone">04-2386 0417</span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon">🕙</span>
+            <span>09:30–19:00（週二、三公休）</span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="footer__contact-icon">💬</span>
+            <a href="#" id="footerLine" style="color:var(--color-accent);">LINE 官方帳號</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 天目城股份有限公司 版權所有</span>
+        <span>台中文心玉市 · TIANMU CITY</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ╔══════════════════════════════╗
+       ║  JAVASCRIPT                  ║
+       ╚══════════════════════════════╝ -->
+  <script>
+    /* ── 手機選單 ── */
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+
+    /* ── 從 JSON 載入資料 ── */
+    async function loadJSON(path) {
+      try {
+        const r = await fetch(path);
+        return await r.json();
+      } catch(e) {
+        console.warn('無法載入', path, e);
+        return null;
+      }
+    }
+
+    /* ── 載入設定 ── */
+    async function loadSettings() {
+      const data = await loadJSON('content/settings.json');
+      if (!data) return;
+      document.getElementById('phoneDisplay').textContent = data.phone;
+      document.getElementById('footerPhone').textContent  = data.phone;
+      const lineEl = document.getElementById('lineLink');
+      const footerLine = document.getElementById('footerLine');
+      if (data.lineUrl) {
+        lineEl.href = data.lineUrl;
+        footerLine.href = data.lineUrl;
+      }
+    }
+
+    /* ── 載入目前展覽 ── */
+    async function loadCurrentExhibition() {
+      const data = await loadJSON('content/exhibitions.json');
+      if (!data || !data.current) return;
+      const ex = data.current;
+      document.getElementById('currentExhibition').innerHTML = `
+        <div class="exhibition-card" style="max-width:680px; margin:0 auto; text-align:left;">
+          <div class="exhibition-card__image">🎨</div>
+          <div class="exhibition-card__body">
+            <div class="exhibition-card__tags">
+              ${ex.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+            </div>
+            <h3 class="exhibition-card__title">${ex.title}</h3>
+            <p class="exhibition-card__meta">
+              🎨 ${ex.artist} &nbsp;|&nbsp; 📅 ${ex.period}
+            </p>
+            <p class="exhibition-card__desc">${ex.description}</p>
+            <div style="margin-top:1.5rem;">
+              <a href="exhibition.html" class="btn btn--primary-dark">查看完整資訊</a>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    /* ── 載入最新消息 ── */
+    async function loadNews() {
+      const data = await loadJSON('content/news.json');
+      if (!data || !data.items) return;
+      const html = data.items.slice(0, 3).map(item => `
+        <div class="news-item">
+          <span class="news-item__date">${item.date.replace(/-/g,'/')}</span>
+          <span class="news-item__tag">${item.tag}</span>
+          <span class="news-item__title">${item.title}</span>
+        </div>`).join('');
+      document.getElementById('newsList').innerHTML = html;
+    }
+
+    /* ── 初始化 ── */
+    loadSettings();
+    loadCurrentExhibition();
+    loadNews();
+  </script>
+</body>
+</html>

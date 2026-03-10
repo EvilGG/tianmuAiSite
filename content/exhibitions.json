@@ -1,0 +1,33 @@
+{
+  "current": {
+    "id": "2026-current",
+    "title": "玉石雅集・春季特展",
+    "artist": "天目城聯合展",
+    "period": "2026/03/01 - 2026/04/30",
+    "description": "春暖花開，天目城邀您共賞一年一度的玉石雅集。本次特展匯聚台灣各地頂尖玉石藏家與工藝師，呈現翡翠、台灣玉、碧玉等多元品種，感受東方美學的溫潤魅力。",
+    "coverImage": "assets/images/exhibition-placeholder.jpg",
+    "tags": ["玉石", "聯展", "春季", "特展"],
+    "highlights": ["翡翠精品", "台灣玉工藝", "碧玉珍藏", "藝師示範"]
+  },
+  "upcoming": [],
+  "past": [
+    {
+      "id": "2025-winter",
+      "title": "冬藏・玉韻人文展",
+      "artist": "天目城聯合展",
+      "period": "2025/12/01 - 2026/01/31",
+      "description": "以冬日靜謐為題，展出各式稀珍玉石與工藝珍品。",
+      "coverImage": "assets/images/exhibition-placeholder.jpg",
+      "tags": ["玉石", "冬季", "人文"]
+    },
+    {
+      "id": "2025-autumn",
+      "title": "秋・韻味玉石特展",
+      "artist": "天目城聯合展",
+      "period": "2025/09/01 - 2025/11/30",
+      "description": "秋高氣爽，玉石飄香。集結多位藏家精品，共享秋日雅趣。",
+      "coverImage": "assets/images/exhibition-placeholder.jpg",
+      "tags": ["玉石", "秋季"]
+    }
+  ]
+}

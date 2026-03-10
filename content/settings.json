@@ -2,12 +2,22 @@
   "siteName": "台中文心玉市－天目城",
   "siteNameShort": "天目城",
   "tagline": "二十年人文底蘊・台中玉石藝術聚落",
+  "description": "是【台中文心玉市】風華二十年孕育出的結晶，是玉石古玩市集中最閃耀的一顆星。包括玉石水晶、佛教文物、木雕瓷器、珠寶古董、茶道香藝等應有盡有，並不定期協辦各項大小展覽。",
   "phone": "04-2386 0417",
   "address": "台中市南屯區五權西路二段957號",
+  "addressNote": "向上路交叉口",
+  "parking": "城市車旅地下收費停車場（靠近肯德基）",
   "hours": "09:30 - 19:00（週二、三公休）",
   "lineUrl": "https://line.me/R/ti/p/%40gsq4480k",
   "facebook": "https://www.facebook.com/tian.mu.square",
   "instagram": "",
-  "email": "info@jeffkao.com",
-  "mapUrl": "https://maps.google.com/?q=台中市南屯區五權西路二段957號"
+  "email": "info@tian-mu.com.tw",
+  "mapUrl": "https://maps.google.com/?q=台中市南屯區五權西路二段957號",
+  "stats": {
+    "items": "9999+",
+    "vendors": "200+",
+    "years": "20+"
+  },
+  "established": "1996",
+  "upgraded": "2016"
 }

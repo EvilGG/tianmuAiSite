@@ -24,3 +24,9 @@ secrets/
 
 # 系統規劃文件（不需上傳到 repo）
 20260310_PLAN_tianmu-website-rebuild_v1.0.md
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
